@@ -12,13 +12,13 @@
 
 <h3>배경색과 글자색 변경</h3>
 <input type="button" value="Black" onclick="
-    alert('어두운 화면으로 변합니다.');
+    alert('Daegu in Cloud');
     document.querySelector('body').style.backgroundColor='black';
     document.querySelector('body').style.color='white';
     ">
 
 <input type="button" value="White" onclick="
-    alert('밝은 화면으로 변합니다.');
+    alert('Daegu with Cloud');
     document.querySelector('body').style.backgroundColor='white';
     document.querySelector('body').style.color='black';
     ">
