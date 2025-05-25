@@ -7,6 +7,8 @@
     <title>Example</title>
 </head>
 <body>
+<p>현재 접속한 Pod: ${hostname}</p>
+
 <h1 class="text_h1">글자를 클릭하면 빨간색으로 변경</h1>
 <h4 class="text_h2">글자를 클릭하면 파란색으로 변경</h4>
 
