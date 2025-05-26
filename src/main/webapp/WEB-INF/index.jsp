@@ -12,6 +12,9 @@
             margin: 0;
             padding: 0;
             height: 100vh;
+            display: flex;               /* flexbox 사용 */
+            justify-content: center;     /* 가로 중앙 정렬 */
+            align-items: center;         /* 세로 중앙 정렬 */
             text-align: center;
             background-image: url('<c:url value="/images/cloud-background.png" />');
             background-size: cover;
