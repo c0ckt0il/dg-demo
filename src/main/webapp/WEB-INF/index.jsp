@@ -46,7 +46,7 @@
 <body>
 <div class="container">
     <!-- 이미지 -->
-    <img src="<c:url value='/images/daegu-logo1.png' />" alt="Daegu Logo" style="max-width: 300px; height: auto;"/>
+    <img src="<c:url value='/images/daegu-logo1.png' />" alt="Daegu Logo" style="max-width: 500px; height: auto;"/>
 
     <p>현재 접속한 Pod: ${hostname}</p>
 
