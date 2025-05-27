@@ -17,8 +17,12 @@ public class DemoApplication {
     @GetMapping("/")
     public String index(Model model) {
         String hostname = System.getenv("HOSTNAME");
+	String namespace = System.getenv("NAMESPACE");
+
         model.addAttribute("hostname", hostname);
-        return "index"; // /WEB-INF/index.jsp
+        model.addAttribute("namespace", namespace);
+
+	return "index"; // /WEB-INF/index.jsp
     }
 
 }
