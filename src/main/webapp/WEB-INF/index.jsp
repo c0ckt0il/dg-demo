@@ -58,7 +58,7 @@
     <input type="button" value="Black" onclick="
         alert('Daegu in Cloud');
         document.querySelector('body').style.backgroundColor='black';
-        document.querySelector('body').style.color='white';
+        document.querySelector('body').style.color='green';
     ">
     <input type="button" value="White" onclick="
         alert('Daegu with Cloud');
