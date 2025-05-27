@@ -49,6 +49,7 @@
     <img src="<c:url value='/images/daegu-logo1.png' />" alt="Daegu Logo" style="max-width: 500px; height: auto;"/>
 
     <p>현재 접속한 Pod: ${hostname}</p>
+    <p>현재 Namespace: ${namespace}</p>
 
     <h1 class="text_h1">Daegu in Cloud</h1>
     <h3 class="text_h2">Daegu with Cloud</h3>
