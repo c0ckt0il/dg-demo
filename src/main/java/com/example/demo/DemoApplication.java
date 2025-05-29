@@ -25,4 +25,11 @@ public class DemoApplication {
 	return "index"; // /WEB-INF/index.jsp
     }
 
+    @GetMapping("/health")
+    @ResponseBody
+    public String health() {
+        return "OK";
+    }
+
+
 }
